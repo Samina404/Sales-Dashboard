@@ -105,33 +105,6 @@ https://sales-dashboard-web.vercel.app
 
 ---
 
- 📡 API Reference
-
- **1️⃣ POST `/getAuthorize`**
-
-Returns:
-
-```json
-{
-  "token": "xxxx-xxxx-xxxx",
-  "expire": 7200
-}
-2️⃣ GET /sales
-Query Parameters
-
-Parameter	Description
-startDate	Start date filter
-endDate	End date filter
-priceMin	Minimum price
-email	Filter by email
-phone	Filter by phone
-sortBy	date / price
-sortOrder	asc / desc
-after	Forward pagination token
-before	Backward pagination token
-
-Full docs:
-https://documenter.getpostman.com/view/27515971/2sB3dJyXmy
 
 📁 Project Structure
 arduino
@@ -170,18 +143,6 @@ Tablet
 
 Mobile
 
-🏆 Bonus Enhancements
-(Include only if implemented)
-
-Token refresh logic
-
-API error handling and retry
-
-Data caching (React Query / SWR)
-
-Skeleton loading states
-
-Search + sorting UX optimizations
 
 📄 License
 This project is open-source and free to use.
