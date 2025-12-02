@@ -1,0 +1,105 @@
+2025-12-02T14:30:54.834928Z  INFO tailwindcss_oxide::scanner: Provided sources:
+2025-12-02T14:30:54.835102Z  INFO tailwindcss_oxide::scanner: Source: PublicSourceEntry { base: "F:\\My work\\Dashboard\\sales-dashboard", pattern: "**/*", negated: false }
+2025-12-02T14:30:54.835449Z  INFO tailwindcss_oxide::scanner: Optimized sources:
+2025-12-02T14:30:54.835478Z  INFO tailwindcss_oxide::scanner: Source: Auto { base: "F:\\My work\\Dashboard\\sales-dashboard" }
+2025-12-02T14:30:54.838108Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-12-02T14:30:54.839462Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\eslint.config.mjs"
+2025-12-02T14:30:54.839547Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\next.config.ts"
+2025-12-02T14:30:54.868730Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\package.json"
+2025-12-02T14:30:54.868845Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\postcss.config.mjs"
+2025-12-02T14:30:54.868966Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\public"
+2025-12-02T14:30:54.869153Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\public\\file.svg"
+2025-12-02T14:30:54.869222Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\public\\globe.svg"
+2025-12-02T14:30:54.869285Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\public\\next.svg"
+2025-12-02T14:30:54.869351Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\public\\vercel.svg"
+2025-12-02T14:30:54.869413Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\public\\window.svg"
+2025-12-02T14:30:54.869517Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\README.md"
+2025-12-02T14:30:54.869624Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\src"
+2025-12-02T14:30:54.869807Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\src\\app"
+2025-12-02T14:30:54.869973Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\api"
+2025-12-02T14:30:54.870134Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\api\\client.ts"
+2025-12-02T14:30:54.870247Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\api\\sales"
+2025-12-02T14:30:54.870385Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\api\\sales\\mockData.ts"
+2025-12-02T14:30:54.870458Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\api\\sales\\route.ts"
+2025-12-02T14:30:54.870561Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\api\\useAuth.ts"
+2025-12-02T14:30:54.870632Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\api\\useSales.ts"
+2025-12-02T14:30:54.870764Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\auth"
+2025-12-02T14:30:54.870899Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\auth\\route.ts"
+2025-12-02T14:30:54.871023Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\components"
+2025-12-02T14:30:54.871175Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\components\\Filters.tsx"
+2025-12-02T14:30:54.871776Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\components\\Pagination.tsx"
+2025-12-02T14:30:54.872705Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\components\\SalesChart.tsx"
+2025-12-02T14:30:54.872790Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\components\\SalesTable.tsx"
+2025-12-02T14:30:54.872901Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\components\\SortIcon.tsx"
+2025-12-02T14:30:54.873016Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\globals.css"
+2025-12-02T14:30:54.873103Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\layout.tsx"
+2025-12-02T14:30:54.873179Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\page.tsx"
+2025-12-02T14:30:54.873244Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\providers.tsx"
+2025-12-02T14:30:54.873367Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\tailwind.config.js"
+2025-12-02T14:30:54.873473Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\tsconfig.json"
+2025-12-02T14:30:54.874424Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-12-02T14:30:54.874601Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-12-02T14:30:54.874615Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-12-02T14:30:54.874619Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 26 file(s)
+2025-12-02T14:30:54.876876Z  INFO tailwindcss_oxide::scanner: Reading "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\api\\useAuth.ts"
+2025-12-02T14:30:54.876935Z  INFO tailwindcss_oxide::scanner: Reading "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\components\\SalesTable.tsx"
+2025-12-02T14:30:54.876952Z  INFO tailwindcss_oxide::scanner: Reading "F:\\My work\\Dashboard\\sales-dashboard\\eslint.config.mjs"
+2025-12-02T14:30:54.877016Z  INFO tailwindcss_oxide::scanner: Reading "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\page.tsx"
+2025-12-02T14:30:54.877029Z  INFO tailwindcss_oxide::scanner: Reading "F:\\My work\\Dashboard\\sales-dashboard\\next.config.ts"
+2025-12-02T14:30:54.877057Z  INFO tailwindcss_oxide::scanner: Reading "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\components\\SortIcon.tsx"
+2025-12-02T14:30:54.877065Z  INFO tailwindcss_oxide::scanner: Reading "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\components\\Filters.tsx"
+2025-12-02T14:30:54.877084Z  INFO tailwindcss_oxide::scanner: Reading "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\api\\useSales.ts"
+2025-12-02T14:30:54.877086Z  INFO tailwindcss_oxide::scanner: Reading "F:\\My work\\Dashboard\\sales-dashboard\\package.json"
+2025-12-02T14:30:54.877091Z  INFO tailwindcss_oxide::scanner: Reading "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\providers.tsx"
+2025-12-02T14:30:54.877154Z  INFO tailwindcss_oxide::scanner: Reading "F:\\My work\\Dashboard\\sales-dashboard\\tailwind.config.js"
+2025-12-02T14:30:54.877156Z  INFO tailwindcss_oxide::scanner: Reading "F:\\My work\\Dashboard\\sales-dashboard\\postcss.config.mjs"
+2025-12-02T14:30:54.877160Z  INFO tailwindcss_oxide::scanner: Reading "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\components\\Pagination.tsx"
+2025-12-02T14:30:54.877162Z  INFO tailwindcss_oxide::scanner: Reading "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\layout.tsx"
+2025-12-02T14:30:54.877184Z  INFO tailwindcss_oxide::scanner: Reading "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\auth\\route.ts"
+2025-12-02T14:30:54.877207Z  INFO tailwindcss_oxide::scanner: Reading "F:\\My work\\Dashboard\\sales-dashboard\\tsconfig.json"
+2025-12-02T14:30:54.877259Z  INFO tailwindcss_oxide::scanner: Reading "F:\\My work\\Dashboard\\sales-dashboard\\public\\next.svg"
+2025-12-02T14:30:54.877221Z  INFO tailwindcss_oxide::scanner: Reading "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\components\\SalesChart.tsx"
+2025-12-02T14:30:54.877228Z  INFO tailwindcss_oxide::scanner: Reading "F:\\My work\\Dashboard\\sales-dashboard\\public\\file.svg"
+2025-12-02T14:30:54.877339Z  INFO tailwindcss_oxide::scanner: Reading "F:\\My work\\Dashboard\\sales-dashboard\\README.md"
+2025-12-02T14:30:54.877361Z  INFO tailwindcss_oxide::scanner: Reading "F:\\My work\\Dashboard\\sales-dashboard\\public\\vercel.svg"
+2025-12-02T14:30:54.877372Z  INFO tailwindcss_oxide::scanner: Reading "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\api\\sales\\mockData.ts"
+2025-12-02T14:30:54.877267Z  INFO tailwindcss_oxide::scanner: Reading "F:\\My work\\Dashboard\\sales-dashboard\\public\\globe.svg"
+2025-12-02T14:30:54.877387Z  INFO tailwindcss_oxide::scanner: Reading "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\api\\client.ts"
+2025-12-02T14:30:54.877387Z  INFO tailwindcss_oxide::scanner: Reading "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\api\\sales\\route.ts"
+2025-12-02T14:30:54.877428Z  INFO tailwindcss_oxide::scanner: Reading "F:\\My work\\Dashboard\\sales-dashboard\\public\\window.svg"
+2025-12-02T14:30:54.877523Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-12-02T14:30:54.877540Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-12-02T14:30:54.877547Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-12-02T14:30:54.878377Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-12-02T14:30:54.878402Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-12-02T14:30:54.878411Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-12-02T14:30:54.878417Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2025-12-02T14:30:54.878502Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\globals.css"
+2025-12-02T14:30:54.878514Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-12-02T14:30:54.878527Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: enter
+2025-12-02T14:30:54.878532Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: enter
+2025-12-02T14:30:54.878668Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: exit
+2025-12-02T14:30:54.878683Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: exit
+2025-12-02T14:30:54.879149Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-12-02T14:30:54.879552Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-12-02T14:30:54.879566Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-12-02T14:30:54.882864Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\public"
+2025-12-02T14:30:54.883301Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\src"
+2025-12-02T14:30:54.883780Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\src\\app"
+2025-12-02T14:30:54.884099Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\api"
+2025-12-02T14:30:54.884381Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\api\\sales"
+2025-12-02T14:30:54.884660Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\auth"
+2025-12-02T14:30:54.884800Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\components"
+2025-12-02T14:30:54.885221Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-12-02T14:30:54.885330Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-12-02T14:30:54.885602Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-12-02T14:30:54.885611Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: enter
+2025-12-02T14:30:54.887678Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\public"
+2025-12-02T14:30:54.887910Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\src"
+2025-12-02T14:30:54.887995Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\src\\app"
+2025-12-02T14:30:54.888078Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\api"
+2025-12-02T14:30:54.888181Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\api\\sales"
+2025-12-02T14:30:54.888353Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\auth"
+2025-12-02T14:30:54.888458Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "F:\\My work\\Dashboard\\sales-dashboard\\src\\app\\components"
+2025-12-02T14:30:54.888775Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: exit
+2025-12-02T14:30:54.890771Z  INFO get_globs: tailwindcss_oxide::scanner: exit
