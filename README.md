@@ -1,36 +1,187 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+ 📊 Sales Dashboard
 
-## Getting Started
+A fully functional Sales Analytics Dashboard built for the Junior Frontend Engineer Assignment
+The dashboard integrates with a backend API to provide filtering, sorting, chart visualization, and cursor-based pagination — all inside a modern, responsive UI.
 
-First, run the development server:
+🔗 Live Demo: https://sales-dashboard-web.vercel.app  
+📁 GitHub Repository:https://github.com/Samina404/Sales-Dashboard.git
 
-```bash
+---
+
+ 🚀 Overview
+
+This project demonstrates practical frontend engineering skills including:
+
+- API integration & authentication  
+- Dynamic data fetching  
+- Reusable components  
+- State management  
+- Data visualization  
+- Responsive UI using Tailwind CSS  
+
+Users can interactively explore sales data using multiple filters and navigate through results using cursor tokens (`before` / `after`).
+
+---
+
+ 🧩 Features
+
+🔐 Authentication
+Uses:
+**POST `/getAuthorize`**  
+to request an authorization token on page load.
+
+---
+
+ 📅 Date Range Filtering
+Users can select:
+- Start Date
+- End Date
+
+Automatically reloads filtered results from the API.
+
+---
+
+ 🔍 Advanced Filter Options
+Filter sales by:
+- Minimum Price  
+- Customer Email  
+- Customer Phone  
+
+All filters are applied server-side.
+
+---
+
+### 📈 Sales Chart
+- Visualizes **Total Sales Over Time**
+- Built using Recharts / Chart.js (based on your implementation)
+
+---
+
+ 📋 Sales Table
+Includes:
+- Date  
+- Price  
+- Customer Email  
+- Customer Phone  
+
+Styled for clarity & easy readability.
+
+---
+
+ ↕️ Sorting
+Sortable fields:
+- **Date**
+- **Price**
+
+Supports **ascending** and **descending** order.
+
+---
+
+ ⏭ Cursor-Based Pagination
+Backend provides:
+- `after` token → Next page  
+- `before` token → Previous page  
+
+Pagination buttons automatically disable when unavailable.
+
+---
+
+ 🌐 Deployment
+Deployed using:
+- Vercel
+https://sales-dashboard-web.vercel.app 
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technologies |
+|----------|--------------|
+| Framework | Next.js / React |
+| Language | TypeScript |
+| Styling | Tailwind CSS |
+| Charts | Recharts / Chart.js |
+| UI Components | Custom / ShadCN (if used) |
+| Build Tool | Next.js App Router |
+
+---
+
+ 📡 API Reference
+
+ **1️⃣ POST `/getAuthorize`**
+
+Returns:
+
+```json
+{
+  "token": "xxxx-xxxx-xxxx",
+  "expire": 7200
+}
+2️⃣ GET /sales
+Query Parameters
+
+Parameter	Description
+startDate	Start date filter
+endDate	End date filter
+priceMin	Minimum price
+email	Filter by email
+phone	Filter by phone
+sortBy	date / price
+sortOrder	asc / desc
+after	Forward pagination token
+before	Backward pagination token
+
+Full docs:
+https://documenter.getpostman.com/view/27515971/2sB3dJyXmy
+
+📁 Project Structure
+arduino
+Copy code
+src/
+ ├── app/
+ │   ├── components/
+ │   ├── api/
+ │   ├── lib/
+ │   ├── page.tsx
+ │   ├── layout.tsx
+ │   └── globals.css
+ ├── public/
+ ├── tailwind.config.js
+ └── tsconfig.json
+▶️ Getting Started
+bash
+Copy code
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Build for production
+npm run build
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Start production server
+npm start
+📱 Responsive Design
+The layout is optimized for:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Desktop
 
-## Learn More
+Tablet
 
-To learn more about Next.js, take a look at the following resources:
+Mobile
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🏆 Bonus Enhancements
+(Include only if implemented)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Token refresh logic
 
-## Deploy on Vercel
+API error handling and retry
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Data caching (React Query / SWR)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Skeleton loading states
+
+Search + sorting UX optimizations
+
+📄 License
+This project is open-source and free to use.
